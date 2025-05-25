@@ -1,0 +1,1130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{80984FBE-9B17-4BE0-A25F-A97F53126BB2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Pokedex</RootNamespace>
+    <AssemblyName>Pokedex</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Caching" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Intro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intro.Designer.cs">
+      <DependentUpon>Intro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PokedexGen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PokedexGen2.Designer.cs">
+      <DependentUpon>PokedexGen2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Intro.resx">
+      <DependentUpon>Intro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PokedexGen2.resx">
+      <DependentUpon>PokedexGen2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="ApplicationInsights.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\035.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\036.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\043.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\053.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\054.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\055.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\056.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\057.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\060.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\061.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\062.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\063.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\064.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\065.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\066.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\067.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\068.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\069.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\073.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\074.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\075.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\076.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\077.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\078.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\079.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\083.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\085.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\086.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\087.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\088.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\089.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\091.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\092.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\093.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\094.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\095.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\096.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\097.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\098.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\099.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\final_evolution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\002.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\003.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\004.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\006.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\008.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\009.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\010.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\011.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\012.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\013.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\014.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\015.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\016.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\017.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\018.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\019.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\020.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\021.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\022.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\024.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\025.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\026.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\027.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\028.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\030.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\031.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\032.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\033.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\034.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\035.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\036.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\037.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\038.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\039.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\041.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\042.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\043.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\044.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\045.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\046.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\047.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\048.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\050.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\051.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\052.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\053.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\054.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\055.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\056.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\057.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\058.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\059.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\060.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\061.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\062.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\063.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\064.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\065.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\066.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\067.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\068.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\069.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\070.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\073.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\074.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\075.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\076.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\077.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\078.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\079.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\080.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\081.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\082.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\083.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\084.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\085.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\086.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\087.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\088.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\089.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\090.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\091.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\092.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\093.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\094.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\095.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\096.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\097.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\098.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\099.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\101.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\102.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\103.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\104.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\106.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\107.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\108.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\109.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\110.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\111.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\112.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\113.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\114.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\115.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\116.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\117.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\118.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\119.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\120.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\123.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\124.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\125.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\126.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\127.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\129.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\130.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\131.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\132.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\133.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\134.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\135.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\136.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\137.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\138.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\139.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\140.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\142.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\143.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\144.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\145.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\147.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\148.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\149.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\150.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\final_evolution.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\Type_Fairy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Source\152.png" />
+    <None Include="bin\Debug\Source\153.png" />
+    <None Include="bin\Debug\Source\154.png" />
+    <None Include="bin\Debug\Source\155.png" />
+    <None Include="bin\Debug\Source\156.png" />
+    <None Include="bin\Debug\Source\157.png" />
+    <None Include="bin\Debug\Source\158.png" />
+    <None Include="bin\Debug\Source\159.png" />
+    <None Include="bin\Debug\Source\160.png" />
+    <None Include="bin\Debug\Source\161.png" />
+    <None Include="bin\Debug\Source\162.png" />
+    <None Include="bin\Debug\Source\163.png" />
+    <None Include="bin\Debug\Source\164.png" />
+    <None Include="bin\Debug\Source\165.png" />
+    <None Include="bin\Debug\Source\166.png" />
+    <None Include="bin\Debug\Source\167.png" />
+    <None Include="bin\Debug\Source\168.png" />
+    <None Include="bin\Debug\Source\169.png" />
+    <None Include="bin\Debug\Source\170.png" />
+    <None Include="bin\Debug\Source\171.png" />
+    <None Include="bin\Debug\Source\172.png" />
+    <None Include="bin\Debug\Source\173.png" />
+    <None Include="bin\Debug\Source\174.png" />
+    <None Include="bin\Debug\Source\175.png" />
+    <None Include="bin\Debug\Source\176.png" />
+    <None Include="bin\Debug\Source\177.png" />
+    <None Include="bin\Debug\Source\178.png" />
+    <None Include="bin\Debug\Source\179.png" />
+    <None Include="bin\Debug\Source\180.png" />
+    <None Include="bin\Debug\Source\181.png" />
+    <None Include="bin\Debug\Source\182.png" />
+    <None Include="bin\Debug\Source\183.png" />
+    <None Include="bin\Debug\Source\184.png" />
+    <None Include="bin\Debug\Source\185.png" />
+    <None Include="bin\Debug\Source\186.png" />
+    <None Include="bin\Debug\Source\187.png" />
+    <None Include="bin\Debug\Source\188.png" />
+    <None Include="bin\Debug\Source\189.png" />
+    <None Include="bin\Debug\Source\190.png" />
+    <None Include="bin\Debug\Source\191.png" />
+    <None Include="bin\Debug\Source\192.png" />
+    <None Include="bin\Debug\Source\193.png" />
+    <None Include="bin\Debug\Source\194.png" />
+    <None Include="bin\Debug\Source\195.png" />
+    <None Include="bin\Debug\Source\196.png" />
+    <None Include="bin\Debug\Source\197.png" />
+    <None Include="bin\Debug\Source\198.png" />
+    <None Include="bin\Debug\Source\199.png" />
+    <None Include="bin\Debug\Source\200.png" />
+    <None Include="bin\Debug\Source\201.png" />
+    <None Include="bin\Debug\Source\202.png" />
+    <None Include="bin\Debug\Source\203.png" />
+    <None Include="bin\Debug\Source\204.png" />
+    <None Include="bin\Debug\Source\205.png" />
+    <None Include="bin\Debug\Source\206.png" />
+    <None Include="bin\Debug\Source\207.png" />
+    <None Include="bin\Debug\Source\208.png" />
+    <None Include="bin\Debug\Source\209.png" />
+    <None Include="bin\Debug\Source\210.png" />
+    <None Include="bin\Debug\Source\211.png" />
+    <None Include="bin\Debug\Source\212.png" />
+    <None Include="bin\Debug\Source\213.png" />
+    <None Include="bin\Debug\Source\214.png" />
+    <None Include="bin\Debug\Source\215.png" />
+    <None Include="bin\Debug\Source\216.png" />
+    <None Include="bin\Debug\Source\217.png" />
+    <None Include="bin\Debug\Source\218.png" />
+    <None Include="bin\Debug\Source\219.png" />
+    <None Include="bin\Debug\Source\220.png" />
+    <None Include="bin\Debug\Source\221.png" />
+    <None Include="bin\Debug\Source\222.png" />
+    <None Include="bin\Debug\Source\223.png" />
+    <None Include="bin\Debug\Source\224.png" />
+    <None Include="bin\Debug\Source\225.png" />
+    <None Include="bin\Debug\Source\226.png" />
+    <None Include="bin\Debug\Source\227.png" />
+    <None Include="bin\Debug\Source\228.png" />
+    <None Include="bin\Debug\Source\229.png" />
+    <None Include="bin\Debug\Source\230.png" />
+    <None Include="bin\Debug\Source\231.png" />
+    <None Include="bin\Debug\Source\232.png" />
+    <None Include="bin\Debug\Source\233.png" />
+    <None Include="bin\Debug\Source\234.png" />
+    <None Include="bin\Debug\Source\235.png" />
+    <None Include="bin\Debug\Source\236.png" />
+    <None Include="bin\Debug\Source\237.png" />
+    <None Include="bin\Debug\Source\238.png" />
+    <None Include="bin\Debug\Source\239.png" />
+    <None Include="bin\Debug\Source\240.png" />
+    <None Include="bin\Debug\Source\241.png" />
+    <None Include="bin\Debug\Source\242.png" />
+    <None Include="bin\Debug\Source\243.png" />
+    <None Include="bin\Debug\Source\244.png" />
+    <None Include="bin\Debug\Source\245.png" />
+    <None Include="bin\Debug\Source\246.png" />
+    <None Include="bin\Debug\Source\247.png" />
+    <None Include="bin\Debug\Source\248.png" />
+    <None Include="bin\Debug\Source\249.png" />
+    <None Include="bin\Debug\Source\250.png" />
+    <None Include="bin\Debug\Source\251.png" />
+    <Content Include="logo_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
