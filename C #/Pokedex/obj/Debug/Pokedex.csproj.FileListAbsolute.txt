@@ -1,0 +1,11 @@
+C:\Users\Formando Manhã\source\repos\Pokedex\bin\Debug\Pokedex.exe.config
+C:\Users\Formando Manhã\source\repos\Pokedex\bin\Debug\Pokedex.exe
+C:\Users\Formando Manhã\source\repos\Pokedex\bin\Debug\Pokedex.pdb
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.csproj.AssemblyReference.cache
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.Properties.Resources.resources
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.csproj.GenerateResource.cache
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.csproj.CoreCompileInputs.cache
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.exe
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.pdb
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.Intro.resources
+C:\Users\Formando Manhã\source\repos\Pokedex\obj\Debug\Pokedex.Pokedex.resources
