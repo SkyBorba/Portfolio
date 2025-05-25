@@ -1,0 +1,365 @@
+/* ALL */
+
+body{
+  margin: 0%;
+}
+.topbar {
+  background-color: #2f3774;
+  display: flex;
+  justify-content:space-around;
+}
+
+.icon{
+  padding-top: 8px;
+  height:40px;
+  padding-right: 690px;
+  margin-left: 20px;
+}
+
+.button {
+  font-weight:bold;
+  font-family: "Lucida Handwriting";
+  color: #dae07b;
+  background-color:#2f3774;
+  padding: 16px;
+  font-size: 17px;
+  border: none;
+  text-align: center;
+  min-width: 140px;
+}
+
+.topbar button:hover {
+  background-color: #7ea4b0;
+  color: #29251d;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #eef2b1;
+  text-align: center;
+  min-width: 140px;
+  font-size: 13;
+  font-weight: bold;
+}
+
+.dropdown-content a {
+  text-decoration: none;
+  font-family: "Lucida Handwriting";
+  color: #29251d;
+  padding: 12px 16px;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #93b9c2;}
+.dropdown:hover .dropdown-content {display: block;}
+
+#scrolltotop {
+  font-family: "Lucida Handwriting";
+  font-weight: bold;
+  position: fixed; 
+  bottom: 10px;
+  right: 10px; 
+  border: none;
+  background-color: #dae07b;
+  color: #29251d;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 17px;
+  }
+  
+  #scrolltotop:hover {
+    color: #dae07b;
+    background-color:#2f3774
+  }
+
+.bottombar{
+  background-color: #2f3774;
+  height: 40px;
+}
+
+.bottombar h3{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+  color: #dae07b;
+  margin: 0;
+}
+
+/* Main */
+
+.frontpage{
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 30px;
+  background-color: #84abd1;
+  height: 610px;
+  display: flex;
+}
+
+.frontpage h1{
+  font-family: "Lucida Handwriting";
+  color: #2f3774;
+  margin: 0px;
+}
+
+.frontpage h4{
+  font-family: "Georgia";
+  color: black;
+}
+.frontpage img{
+  max-height: 400px;
+  padding: 25px;
+  padding-right: 25px;
+  background-color:rgba(220, 225, 147, 0.8);
+}
+
+.intro {
+padding-top: 75px;
+padding-left: 75px;
+width: 900px;
+height: 375px;
+background-color: rgba(220, 225, 147, 0.8);
+}
+
+#sectiontwo{
+  padding-top: 20px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-bottom: 10;
+  height: 670px;
+  background-color: #84abd1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image img{
+  height: 625px;
+}
+
+.whois {
+  padding: 75px;
+  padding-top: 100px;
+  max-width: 775px;
+  max-height: 450px;
+  background-image: url(Source/StarryNightBackground.jpg);
+  }
+
+.whois li::marker{
+  color: #eef95b;
+  font-size: 30px;
+}
+
+/* biography */
+
+.biography{
+  padding-top: 50px;
+  padding-left: 50px;
+  background-color: #84abd1;
+  height: 2200px;
+  display: flex;
+}
+
+.biography h1{
+  font-family: "Lucida Handwriting";
+  color: #2f3774;
+  margin: 0px;
+}
+
+.biography h4{
+  font-family: "Georgia";
+  color: black;
+}
+.biography img{
+  max-height: 400px;
+  padding-right: 50px;
+}
+
+.bio{
+  padding: 75px;
+  padding-top: 50px;
+  max-width: 900px;
+  height: 2030px;
+  background-image: url(Source/StarryNightBackgroundV2.jpg);
+}
+
+/*gallery*/
+
+.title{ 
+  padding-top: 10px;
+  padding-left: 20px;
+  background-color: #84abd1;
+  color:#eef2b1
+}
+
+.title h1{
+  margin: 0;
+}
+
+.gallery{
+  background-color:#84abd1;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal-content {
+  position:relative;
+  bottom: 80px;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  max-width: 800px;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 2px 10px;
+  color: white;
+  position: absolute;
+  width: 780px;
+}
+
+img.demo {
+  display: none;
+}
+
+
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.prev,.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.prev {
+  left: -45px;
+  border-radius: 3px 0 0 3px;
+}
+.next {
+  right: -45px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,.next:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.numbertext {
+  color: white;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.6)
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+  max-width: 350px;
+}
+
+.hover-shadow:hover {
+  background-color: black;
+  opacity: 0.6;
+  
+}
+
+/* Museums */
+
+.museumpage1{
+  padding-top: 75px;
+  background-color: #84abd1;
+  display: flex;
+  justify-content: space-evenly;
+  height: 390px;
+
+}
+
+.museumpage1 h1{
+  font-family: "Lucida Handwriting";
+  color: #e2ea71;
+  margin: 0px;
+}
+
+.museumpage1,.museumpage2 h4{
+  font-family: "Georgia";
+  color: black;
+}
+
+.museumimage img{
+  height:400px;
+}
+
+.museumintro {
+max-width: 700px;
+max-height: 100px;
+}
+
+.museumpage2{
+  padding-top: 50px;
+  padding-left: 50px;
+  background-color: #84abd1;
+  display: flex;
+  justify-content:space-between;
+  height: 390px;
+
+}
+
+.contacts{
+  padding-top: 50px;
+  padding-right: 300px;
+  max-width: 350px;
+  max-height: 100px;
+}
+
+.museummap img{
+  height: 250px;  
+  padding-top: 50px;
+  padding-left: 175px;
+}
+
+.museummap h4{
+  padding-left: 175px;
+}

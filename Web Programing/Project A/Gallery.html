@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Style.css">
+        <script src="Script.js"></script>
+    </head>
+    <body>
+      <button onclick="TopFunction()" id="scrolltotop" title="Go to top">Top</button>
+        <div class="topbar">
+          <img class= icon src="Source/FunflowerLogo.ico">
+            <button class="button" onclick="window.location.href='main.html';">Home</button>
+            <button class="button" onclick="window.location.href='main.html#sectiontwo';">Who is Van Gogh?</button>
+            <button class="button" onclick="window.location.href='Biography.html';">Biography</button>
+            <button class="button" onclick="window.location.href='Gallery.html';">Gallery</button>
+            <div class="dropdown">
+                <button class="button">Museums</button>
+                <div class="dropdown-content">
+                    <a href="Museum 1.html">Van Gogh Museum</a>
+                    <a href="Museum 2.html">The Museum of Modern Art</a>
+                    <a href="Museum 3.html">Musée d'Orsay</a>
+                  </div>
+            </div>
+          </div>
+          <div class="Title">
+            <h1>Art Gallery</h1>
+          </div>
+          <!-- Main Gallery display -->
+            <div class= "gallery">
+              <img src="Source/StarryNight.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+              <img src="Source/TheBedroominArles.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+              <img src="Source/EarthenwareAndFruit.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+              <img src="Source/Irises.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+            </div>
+            <div class="gallery">
+              <img src="Source/TheSower.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow">
+              <img src="Source/TheNightCafe.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow">
+              <img src="Source/TheSiesta.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow">
+              <img src="Source/WheatfieldWithCrows.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow">
+            </div>
+            <div class="gallery">
+              <img src="Source/WheatFieldWithCypresses.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow">
+              <img src="Source/StarryNightOverTheRhone.jpg" onclick="openModal();currentSlide(10)" class="hover-shadow">
+              <img src="Source/TheLangloisBridgeAtArles.jpg" onclick="openModal();currentSlide(11)" class="hover-shadow">
+              <img src="Source/LesAlyscamps.jpg" onclick="openModal();currentSlide(12)" class="hover-shadow">
+        
+            </div>
+            
+            <!-- close tab -->
+            <div id="myModal" class="modal">
+              <span class="close cursor" onclick="closeModal()">&times;</span>
+              <div class="modal-content">
+        
+                <!-- all slide with corresponding numbers -->
+                <div class="mySlides">
+                  <div class="numbertext">1 / 12</div>
+                  <img src="Source/StarryNight.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">2 / 12</div>
+                  <img src="Source/TheBedroominArles.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">3 / 12</div>
+                  <img src="Source/EarthenwareAndFruit.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">4 / 12</div>
+                  <img src="Source/Irises.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">5 / 12</div>
+                  <img src="Source/TheSower.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">6 / 12</div>
+                  <img src="Source/TheNightCafe.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">7 / 12</div>
+                  <img src="Source/TheSiesta.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">8 / 12</div>
+                  <img src="Source/WheatfieldWithCrows.jpg" style="width:100%">
+                </div>
+
+                <div class="mySlides">
+                  <div class="numbertext">9 / 12</div>
+                  <img src="Source/WheatFieldWithCypresses.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">10 / 12</div>
+                  <img src="Source/StarryNightOverTheRhone.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">11 / 12</div>
+                  <img src="Source/TheLangloisBridgeAtArles.jpg" style="width:100%">
+                </div>
+            
+                <div class="mySlides">
+                  <div class="numbertext">12 / 12</div>
+                  <img src="Source/LesAlyscamps.jpg" style="width:100%">
+                </div>
+            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                <div class="caption-container">
+                  <p id="caption"></p>
+                </div>
+
+                <!-- when slide is displayed add caption alt -->
+                <img class="demo" src="Source/StarryNight.jpg" style="width:100%" onclick="currentSlide(1)" alt="The Starry Night, 1889">
+                  <img class="demo" src="Source/TheBedroominArles.jpg" style="width:100%" onclick="currentSlide(2)" alt="The Bedroom in Arles, 1889">
+                  <img class="demo" src="Source/EarthenwareAndFruit.jpg" style="width:100%" onclick="currentSlide(3)" alt="Earthenware and Fruit, 1888">
+                  <img class="demo" src="Source/Irises.jpg" style="width:100%" onclick="currentSlide(4)" alt="Irises, 1889">
+                  <img class="demo" src="Source/TheSower.jpg" style="width:100%" onclick="currentSlide(5)" alt="The Sower, 1888">
+                  <img class="demo" src="Source/TheNightCafe.jpg" style="width:100%" onclick="currentSlide(6)" alt="The Night Cafe, 1888">
+                  <img class="demo" src="Source/TheSiesta.jpg" style="width:100%" onclick="currentSlide(7)" alt="The Siesta, 1890">
+                  <img class="demo" src="Source/WheatfieldWithCrows.jpg" style="width:100%" onclick="currentSlide(8)" alt="Wheatfield with Crows, 1890">
+                  <img class="demo" src="Source/WheatFieldWithCypresses.jpg" style="width:100%" onclick="currentSlide(9)" alt="Wheat Field with Cypresses, 1889">
+                  <img class="demo" src="Source/StarryNightOverTheRhone.jpg" style="width:100%" onclick="currentSlide(10)" alt="Starry Night over the Rhone, 1888">
+                  <img class="demo" src="Source/TheLangloisBridgeAtArles.jpg" style="width:100%" onclick="currentSlide(11)" alt="The Langlois Bridge at Arles, 1888">
+                  <img class="demo" src="Source/LesAlyscamps.jpg" style="width:100%" onclick="currentSlide(12)" alt="Les Alyscamps, 1888">
+              </div>
+            </div>
+              <div class="Title">
+                <br><br><br>
+              </div>
+
+              <div class="bottombar">
+                <h3>Made by Silvia Borba, January 2025</h3>
+                </div>
+              </div>
+    </body>   
+</html>
