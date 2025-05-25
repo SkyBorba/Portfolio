@@ -1,0 +1,11 @@
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\bin\Debug\Pokedex.exe.config
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\bin\Debug\Pokedex.exe
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\bin\Debug\Pokedex.pdb
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\PokedexGen2.csproj.AssemblyReference.cache
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\Pokedex.Intro.resources
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\Pokedex.PokedexGen2.resources
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\Pokedex.Properties.Resources.resources
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\PokedexGen2.csproj.GenerateResource.cache
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\PokedexGen2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\Pokedex.exe
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Debug\Pokedex.pdb
