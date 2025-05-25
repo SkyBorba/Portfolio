@@ -1,0 +1,257 @@
+html{
+    background-color: #feefdd; 
+}
+body{
+    margin:0px;
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+.fit {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+}
+div{
+    border-collapse: collapse;
+    padding: 0; 
+    margin: 0;
+    margin: 0px;
+}
+
+#top{
+    background-color: #6b392a;
+    display: flex;
+    justify-content: space-around;
+    position: -webkit-sticky; /*Tornar compativel com outros browsers*/ 
+    position: sticky;
+    top: 0;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropbtn {
+background-color: #6b392a;
+color: #feefdd;
+padding: 16px;
+font-size: 20px;
+border: none;
+font-family: Lucida Calligraphy;
+text-decoration: none;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #feefdd;
+min-width: 160px;
+color: #feefdd ;
+}
+
+.dropdown-content a {
+color: #6b392a;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+font-size: 20px;
+font-family: Lucida Calligraphy;
+}
+
+.dropdown-content a:hover {background-color: #6b392a; color: #feefdd}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #6b392a;}
+
+h3{
+font-size: 50px;
+font-family: Lucida Calligraphy;
+color: #6b392a;
+padding-left: 20px;
+margin: 0;
+}
+
+p{
+font-family: Lucida Calligraphy;
+color: #6b392a;
+font-size: 20px;
+}
+
+#sobre{
+    padding-top: 30px;
+}
+.divider{
+    display: flex;
+    justify-content: space-around;
+    padding:20px;
+}
+
+.img{
+    padding:20px;
+    border-radius: 50px;
+}
+#chef{
+    padding-top: 40px;
+}
+#remi {
+text-align: right;
+padding-right: 70px;
+}
+#remi2{
+    padding-top: 70px;
+}
+
+.especiais{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-family: Lucida Calligraphy;
+    color:#6b392a;
+}
+
+.bold{
+    font-size: 20px;
+    
+}
+
+.small{
+    font-size: 15px;
+}
+
+th{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#menu td{
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+}
+
+#menu th{
+    font-size: 30px;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+#registo2, #reservas{
+    text-align: right;
+    background-color: #6b392a;
+}
+#registo2 h3{
+    background-color: #6b392a;
+    color: #feefdd;
+    padding: 20px;
+    padding-right: 650px;
+}
+
+
+
+#reservas h3{
+    background-color: #6b392a;
+    color: #feefdd;
+    padding: 20px;
+    padding-right: 615px;
+}
+.reservar{
+    padding-right: 560px;
+}
+label{
+    color: #feefdd;
+    font-size: 30px;
+}
+
+small{
+    color: #feefdd;
+    font-size: 20px;
+}
+
+form {
+    padding: 30px;
+    font-family: Lucida Calligraphy;
+}
+
+form button{
+    margin-right: 50px;
+    font-size:40px;
+    background-color: #feefdd;
+    color: #6b392a;
+    border-radius: 10px;
+    font-family: Lucida Calligraphy;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+option, select{
+    font-size: 20px;
+    font-family: Lucida Calligraphy;
+}
+.divider2{
+    display: flex;
+    justify-content: space-evenly;
+}
+#contactos h3{
+    text-align: center;
+    padding: 20px;
+}
+
+.contactos{
+    padding-top: 50px;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    font-family: Lucida Calligraphy;
+    color:#6b392a;
+}
+
+.contactos th{
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.contactos td{
+    font-size: 30px;
+    padding: 10px;
+}
+
+.contactos2{
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    font-family: Lucida Calligraphy;
+    color:#6b392a;
+}
+
+.contactos2 th{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contactos2 td{
+    font-size: 30px;
+}
+.bottom{
+    background-color: #6b392a;
+    display: flex;
+    justify-content: center;
+    margin:0px;
+}
+
+.bottom button{
+    background-color: #6b392a;
+    color: #feefdd;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    margin: 0px;
+    font-family: Lucida Calligraphy;
+    text-decoration: none;  
+}
+
+.bottom button:hover {background-color:#feefdd; color:#6b392a}

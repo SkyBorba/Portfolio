@@ -1,0 +1,40 @@
+#message {
+    display:none;
+    background: #feefdd;
+    color: #6b392a;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message h2{
+    color: #6b392a;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+}
+
+.valid {
+    color: #6b392a;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "\2713";
+}
+
+.invalid {
+    color: #6b392a;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "X";
+}
