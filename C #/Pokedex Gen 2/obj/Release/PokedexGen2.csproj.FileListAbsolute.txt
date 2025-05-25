@@ -1,0 +1,22 @@
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\bin\Release\Pokedex.exe.config
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\bin\Release\Pokedex.exe
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\bin\Release\Pokedex.pdb
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\PokedexGen2.csproj.AssemblyReference.cache
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\Pokedex.Intro.resources
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\Pokedex.PokedexGen2.resources
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\Pokedex.Properties.Resources.resources
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\PokedexGen2.csproj.GenerateResource.cache
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\PokedexGen2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\Pokedex.exe
+C:\Users\Asus\Pictures\Work\Pokedex Gen 2\obj\Release\Pokedex.pdb
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\bin\Release\Pokedex.exe.config
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\bin\Release\Pokedex.exe
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\bin\Release\Pokedex.pdb
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\PokedexGen2.csproj.AssemblyReference.cache
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\Pokedex.Intro.resources
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\Pokedex.PokedexGen2.resources
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\Pokedex.Properties.Resources.resources
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\PokedexGen2.csproj.GenerateResource.cache
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\PokedexGen2.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\Pokedex.exe
+C:\Users\Asus\Pictures\Work\IEFP Online Course\Programing Course\Intership\Pokedex Gen 2\obj\Release\Pokedex.pdb
